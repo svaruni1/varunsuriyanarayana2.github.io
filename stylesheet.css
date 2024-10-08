@@ -81,12 +81,13 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px
+  font-size: 18px
+  /* line-height:2.5 */
 }
 
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 heading {
@@ -96,7 +97,7 @@ heading {
 
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700
 }
 
@@ -106,8 +107,8 @@ name {
 }
 
 .one {
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 200px;
   position: relative;
 }
 
@@ -129,3 +130,24 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+li {
+  margin-bottom: 15px; /* Adjust the value as needed */
+}
+table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: separate;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+td {
+  padding: 20px;
+  width: 100pm; /* Adjust this value as needed */
+  vertical-align: middle;
+}
+
+th {
+  padding: 20px;
+  width: 100px; /* Adjust this value as needed */
+  vertical-align: middle;
